@@ -14,9 +14,10 @@ def test_login_method():
     driver.get(hubbler_url)
     Login_with_OTP = wait.until(EC.element_to_be_clickable((By.XPATH, "//div[contains(text(),'Login With OTP')]")))
     Login_with_OTP.click()
+    time.sleep(5)
     # To enter Number
     Number = wait.until(EC.element_to_be_clickable((By.XPATH, "//input[@placeholder='mobile/ email']")))
-    Number.send_keys("9731771947")
+    Number.send_keys("7999999999")
     time.sleep(2)
     # tO CLICK ON NEXT
     Next = wait.until(EC.element_to_be_clickable((By.ID, "otpNext")))
