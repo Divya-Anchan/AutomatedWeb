@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed2266e6-7e63-463a-95fa-84882e269626" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social/Event/test_JenKin.py" beforeDir="false" afterPath="$PROJECT_DIR$/social/Event/test_JenKin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Driver" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -51,7 +50,7 @@
       <recent name="$PROJECT_DIR$/Driver" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_CreateEvent.test_CreateEvent">
+  <component name="RunManager" selected="Python tests.pytest in test_JenKin.py">
     <configuration name="test_CreateEvent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AutomatedWeb" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,19 +87,34 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_interest_channel.test_create_channel" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_JenKin.test_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="AutomatedWeb" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/social/channel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/social/Event" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_interest_channel.test_create_channel&quot;" />
+      <option name="_new_target" value="&quot;test_JenKin.test_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_JenKin.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="AutomatedWeb" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/social/Event" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/social/Event/test_JenKin.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_interest_channel.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -120,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_JenKin.py" />
+        <item itemvalue="Python tests.pytest for test_JenKin.test_1" />
         <item itemvalue="Python tests.pytest for test_CreateEvent.test_CreateEvent" />
         <item itemvalue="Python.test_CreateEvent" />
         <item itemvalue="Python tests.pytest in test_interest_channel.py" />
-        <item itemvalue="Python tests.pytest for test_interest_channel.test_create_channel" />
-        <item itemvalue="Python.test_CreateEvent" />
       </list>
     </recent_temporary>
   </component>
@@ -174,15 +188,27 @@
       <option name="project" value="LOCAL" />
       <updated>1581403681983</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added other method to test">
+      <created>1581414742015</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581414742015</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing" />
     <MESSAGE value="for jenkins testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="for jenkins testing" />
+    <MESSAGE value="added other method to test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added other method to test" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581417908487">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1581417908487" />
     <state x="384" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581342820793">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -191,30 +217,46 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1580810062944" />
-    <state x="273" y="2" key="CommitChangelistDialog2" timestamp="1581403681699">
+    <state x="273" y="2" key="CommitChangelistDialog2" timestamp="1581414741701">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="273" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1581403681699" />
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1581399793466">
+    <state x="273" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1581414741701" />
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1581419537692">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581399793466" />
-    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1581399793465">
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581419537692" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1581419537689">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581399793465" />
-    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1581399793462">
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581419537689" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1581419537688">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581399793462" />
-    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1581399793465">
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581419537688" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1581419537691">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581399793465" />
-    <state x="149" y="39" key="SettingsEditor" timestamp="1580719585687">
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581419537691" />
+    <state width="1259" height="263" key="GridCell.Tab.1.bottom" timestamp="1581419516337">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1580719585687" />
+    <state width="1259" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581419516337" />
+    <state width="1259" height="263" key="GridCell.Tab.1.center" timestamp="1581419516336">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1581419516336" />
+    <state width="1259" height="263" key="GridCell.Tab.1.left" timestamp="1581419516335">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1581419516335" />
+    <state width="1259" height="263" key="GridCell.Tab.1.right" timestamp="1581419516336">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1581419516336" />
+    <state x="149" y="39" key="SettingsEditor" timestamp="1581418080474">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1581418080474" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1581403116413">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
